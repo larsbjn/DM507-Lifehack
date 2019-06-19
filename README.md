@@ -1,5 +1,9 @@
 # Lifehacks for the DM507 exam
 
+# MinHeap & MaxHeap
+Can be used to add integers to a heap. Print the heap with children, or just plain the array.
+Can extract and insert, just use the functions in the main method.
+
 # Master theorem solver
 Lighter offline version of this: https://www.nayuki.io/page/master-theorem-solver-javascript
 Make sure to have Node installed: https://nodejs.org/en/download/
