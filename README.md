@@ -8,4 +8,6 @@ Instructions:
 
 ![alt text](https://raw.githubusercontent.com/larsbjn/DM507-Lifehack/master/mt-solver.png)
 
+```node mt-solver.js a b k i```
+
 The above example looks like this through the console: ```node mt-solver.js 4 2 2 0```
