@@ -94,6 +94,12 @@ public class MaxHeap {
         }
     }
 
+    public void printArray() {
+        for (int i = 1; i < Heap.length; i++) {
+            System.out.print(Heap[i]);
+        }
+    }
+
     // Remove an element from max heap
     public int extractMax()
     {
@@ -107,18 +113,17 @@ public class MaxHeap {
     {
         System.out.println("The Max Heap is ");
         MaxHeap maxHeap = new MaxHeap(15);
-        maxHeap.insert(5);
-        maxHeap.insert(3);
-        maxHeap.insert(17);
-        maxHeap.insert(10);
-        maxHeap.insert(84);
-        maxHeap.insert(19);
-        maxHeap.insert(6);
-        maxHeap.insert(22);
-        maxHeap.insert(9);
-
-        maxHeap.print();
-        System.out.println("The max val is " + maxHeap.extractMax());
+        maxHeap.insert(1);
+        maxHeap.insert(1);
+        maxHeap.insert(0);
+        maxHeap.insert(1);
+        maxHeap.insert(0);
+        maxHeap.insert(0);
+        maxHeap.insert(0);
+        maxHeap.insert(1);
+        maxHeap.extractMax();
+        maxHeap.extractMax();
+        maxHeap.printArray();
     }
 }
 

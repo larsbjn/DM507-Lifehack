@@ -109,6 +109,12 @@ public class MinHeap {
         }
     }
 
+    public void printArray() {
+        for (int i = 1; i < Heap.length; i++) {
+            System.out.print(Heap[i]);
+        }
+    }
+
     // Function to build the min heap using
     // the minHeapify
     public void minHeap()
