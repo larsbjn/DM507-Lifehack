@@ -11,6 +11,7 @@ class StrongConnectedComponents
     //Constructor
     StrongConnectedComponents(int v)
     {
+        v++;
         V = v;
         adj = new LinkedList[v];
         for (int i=0; i<v; ++i)
@@ -114,10 +115,11 @@ class StrongConnectedComponents
     // Driver method
     public static void main(String args[])
     {
-
+        // 1 2 3 4 5 6 7 8 9 10 11
+        // A B C D E F G H I J K
         //forsøg på at løse opg 10 i MC17
         // Create a graph given in the above diagram
-		StrongConnectedComponents g = new StrongConnectedComponents(10);
+		StrongConnectedComponents g = new StrongConnectedComponents(9);
         g.addEdge(1, 2);
         g.addEdge(1, 4);
         g.addEdge(2, 3);
