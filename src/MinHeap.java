@@ -110,9 +110,10 @@ public class MinHeap {
     }
 
     public void printArray() {
-        for (int i = 1; i < Heap.length; i++) {
-            System.out.print(Heap[i]);
+        for (int i = 1; i <= size; i++) {
+            System.out.print(Heap[i] + " ");
         }
+        System.out.println();
     }
 
     // Function to build the min heap using
@@ -150,7 +151,7 @@ public class MinHeap {
         minHeap.insert(9);
         minHeap.minHeap();
 
-        minHeap.print();
+        minHeap.printArray();
         System.out.println("The Min val is " + minHeap.remove());
     }
 }
