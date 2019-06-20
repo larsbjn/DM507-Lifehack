@@ -15,3 +15,9 @@ Instructions:
 ```node mt-solver.js a b k i```
 
 The above example looks like this through the console: ```node mt-solver.js 4 2 2 0```
+
+# Strongly Connected Components
+Hardcoded with graph from this example:
+![alt text](https://raw.githubusercontent.com/larsbjn/DM507-Lifehack/master/scc.png)
+
+Note that edges are 1-indexed in the example while the code is written for 0-indexed
