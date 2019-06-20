@@ -1,7 +1,7 @@
 public class IsItAHeap {
 
     public static void main(String[] args) {
-        int[] A = {19,100,36,17,3,25,1,2,7};
+        int[] A = {18,9,16,4,8,12,13,1,2};
         boolean checkForMax = true;
 
         int index = 0;

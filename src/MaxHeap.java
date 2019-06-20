@@ -96,7 +96,7 @@ public class MaxHeap {
 
     public void printArray() {
         for (int i = 1; i < Heap.length; i++) {
-            System.out.print(Heap[i]);
+            System.out.print(Heap[i] + " ");
         }
     }
 
@@ -113,15 +113,15 @@ public class MaxHeap {
     {
         System.out.println("The Max Heap is ");
         MaxHeap maxHeap = new MaxHeap(15);
+        maxHeap.insert(18);
+        maxHeap.insert(9);
+        maxHeap.insert(16);
+        maxHeap.insert(4);
+        maxHeap.insert(8);
+        maxHeap.insert(12);
+        maxHeap.insert(13);
         maxHeap.insert(1);
-        maxHeap.insert(1);
-        maxHeap.insert(0);
-        maxHeap.insert(1);
-        maxHeap.insert(0);
-        maxHeap.insert(0);
-        maxHeap.insert(0);
-        maxHeap.insert(1);
-        maxHeap.extractMax();
+        maxHeap.insert(15);
         maxHeap.extractMax();
         maxHeap.printArray();
     }
