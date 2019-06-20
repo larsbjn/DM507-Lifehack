@@ -95,9 +95,10 @@ public class MaxHeap {
     }
 
     public void printArray() {
-        for (int i = 1; i < Heap.length; i++) {
+        for (int i = 1; i <= size; i++) {
             System.out.print(Heap[i] + " ");
         }
+        System.out.println();
     }
 
     // Remove an element from max heap
